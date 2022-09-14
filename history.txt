@@ -1,0 +1,14 @@
+  314  grep "France,2019,PHP" Wilders.csv | wc -l > php_france_2019.csv
+  315  ls
+  316  cat php_france_2019.csv 
+  317  grep "Toulouse;JavaScript" Wilders.csv > ToulouseJava.csv
+  318  grep "Toulouse;JavaScript" Wilders.csv > toulousejava.csv
+  319  grep "Biarritz" Wilders.csv | grep "Javascript" > javascript_biarritz-toulouse.csv
+  320  grep "Biarritz" Wilders.csv | grep "Javascript" Wilders.csv > javascript_biarritz-toulouse.csv
+  321  grep "Biarritz" Xilders.csv | grep "JavaScript" > javascript_biarritz-toulouse.csv; grep "Toulouse" Wilders.csv | grep "JavaScript" >> javascript_biarritz-toulouse.csv
+  322  Xilders.csv: No such file or directory
+  323  grep "Biarritz" Wilders.csv | grep "JavaScript" > javascript_biarritz-toulouse.csv; grep "Toulouse" Wilders.csv | grep "JavaScript" >> javascript_biarritz-toulouse.csv
+  324  cat javascript_biarritz-toulouse.csv
+  325  man tail
+  326  history > history.txt
+
